@@ -1,0 +1,23 @@
+{% extends 'base.html'%}
+{% block body%}
+    <h2>{{the_title}}</h2>
+    <p>los valores de la ecuacion:</p>
+    <table>
+        <tr>
+            <td>l:</td>
+            <td>{{the_l}}</td>
+        </tr>
+        <tr>
+            <td>t:</td>
+            <td>{{the_t}}</td>
+        </tr>
+        <tr>
+            <td colspan="2">v = (l*t**-3)</td>
+        </tr>
+        <tr>
+            <td>v:</td>
+            <td>{{the_result}}</td>
+        </tr>
+    </table>
+    <p><a href="/entry">Go back</a></p>
+{% endblock%}

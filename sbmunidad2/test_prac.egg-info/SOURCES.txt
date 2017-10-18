@@ -1,0 +1,6 @@
+setup.py
+test_prac.py
+test_prac.egg-info/PKG-INFO
+test_prac.egg-info/SOURCES.txt
+test_prac.egg-info/dependency_links.txt
+test_prac.egg-info/top_level.txt
